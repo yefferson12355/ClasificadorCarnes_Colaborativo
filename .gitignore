@@ -1,0 +1,4 @@
+# Ignorar modelos de Keras
+*.keras
+*.h5
+*.hdf5
