@@ -9,7 +9,7 @@ import numpy as np # Se añade NumPy para manejar los datos de imagen
 # --- 1. CONFIGURACIÓN ---
 # =============================================================================
 
-data_dir = r'C:\DiscoLocalD\Programacion\Trabajo\Nueva carpeta\train' 
+data_dir = r'D:\UNAP\PROYECTO PRO\ClasificadorCarnes_Colaborativo\train' 
 
 
 img_height = 224

@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Cargar datos
-data = pd.read_excel('archivo_combinado.xlsx')
+data = pd.read_excel('archivo_combinado.xlsx') 
 
 # Preprocesamiento
 X = data[['L*', 'a*', 'b*']].values
