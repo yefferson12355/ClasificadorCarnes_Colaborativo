@@ -10,9 +10,10 @@ from sklearn.metrics import confusion_matrix # Para calcular la matriz
 # =============================================================================
 # --- 1. CONFIGURACIÓN DE RUTAS ---
 # =============================================================================
-RUTA_DEL_MODELO = r'clasificador_carne_resnet50_v2_rgb.keras' # Asegúrate de usar el nuevo modelo entrenado
-RUTA_TEST_NUEVO = r'C:\DiscoLocalD\Programacion\Trabajo\Nueva carpeta\test'
-RUTA_TEST_APRENDIDO = r'C:\DiscoLocalD\Programacion\Trabajo\Nueva carpeta\img_ya_aprendidas_duplicadas'
+#RUTA_DEL_MODELO = r'clasificador_carne_resnet50_v4_rgb.keras' # Asegúrate de usar el nuevo modelo entrenado
+RUTA_DEL_MODELO = r'clasificador_carne_resnet50_v4_solo_cabeza.keras'
+RUTA_TEST_NUEVO = r'C:\DiscoLocalD\Programacion\Trabajo\Nueva carpeta\CNN\test'
+RUTA_TEST_APRENDIDO = r'C:\DiscoLocalD\Programacion\Trabajo\Nueva carpeta\CNN\img_ya_aprendidas_duplicadas'
 
 img_height = 224
 img_width = 224

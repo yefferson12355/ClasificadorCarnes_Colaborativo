@@ -25,6 +25,10 @@ datagen = ImageDataGenerator(
     fill_mode='reflect'         # 'reflect' suele dar mejores resultados en bordes que 'nearest'
 )
 
+#zomm , brillo.
+#corregir las imagenes.
+
+
 # --- FASE 1: GENERACIÓN DE RÉPLICAS EN ALTA CALIDAD ---
 for class_name in class_names:
     dir_path = os.path.join(base_dir, class_name)
